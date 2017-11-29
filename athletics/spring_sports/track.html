@@ -1,0 +1,1152 @@
+<!DOCTYPE html>
+<html lang="en" style="height: auto; !important"><!-- InstanceBegin template="/Templates/em_real_individual_sport_temp.dwt" codeOutsideHTMLIsLocked="false" --> 
+
+<head>
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Track &amp; Field</title>
+    <!-- InstanceEndEditable -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   
+
+    <link href="../../../css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="../../../assets/template/favicon.png" type="image/png" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- slideshow -->
+
+    <style>
+	html {
+		height: auto !important;	
+	}
+            /* Remove the navbar's default margin-bottom and rounded borders */
+        
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+            align: center;
+        }
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        /* Set gray background color and 100% height */
+        
+        .sidenav {
+            /* padding-top: 20px;*/
+            background-image: url("../../../assets/template/tower_sidebar.png");
+            height: 100%;
+            background-color: #cccccc;
+        }
+        /* Set black background color, white text and some padding */
+        
+        footer {
+            background-color: #636363;
+            color: white;
+            padding: 15px;
+        }
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {
+                height: auto;
+            }
+            .carousel-inner>.item>img,
+            .carousel-inner>.item>a>img {
+                width: 100%;
+                margin: auto;
+            }
+		}
+		.dropdown-menu a {
+			text-align: center;	
+		}
+
+    </style>
+
+    <style>
+        /* actual dropdown animation */
+        
+        @media (min-width: 768px) {
+            .dropdown .dropdown-menu {
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -ms-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                max-height: 0;
+                display: block;
+                overflow: hidden;
+                opacity: 0;
+            }
+            .dropdown.open .dropdown-menu {
+                max-height: 300px;
+                opacity: 1;
+            }
+            ul.nav li.dropdown:hover>ul.dropdown-menu {
+                max-height: 300px;
+                opacity: 1;
+            }
+        }
+        
+        //hamburger
+        .navbar-inner {
+            float: left !important;
+        }
+        
+        .top-bar, .middlebar, .bottom-bar {
+            background: white;
+            height: 5px !important;
+            width: 30px !important;
+        }
+        
+        .navbar-toggle .icon-bar+.icon-bar {
+            margin-top: 0px !important;
+        }
+        
+        .hamburger {
+            width: 30px;
+            height: 25px;
+            padding: 5px 5px 3px 5px;
+            position: relative;
+            margin: auto;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+            cursor: pointer;
+        }
+        
+        .hamburger span {
+            position: absolute;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transition: all .25s ease-in-out;
+            -moz-transition: all .25s ease-in-out;
+            -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+            cursor: pointer;
+            left: 0;
+            right: 0;
+        }
+        
+        .top-bar {
+            top: 0px;
+        }
+        
+        .middlebar {
+            top: 11px;
+            left: 0px;
+        }
+        
+        .bottom-bar {
+            top: 22px;
+        }
+        
+        .hamburger.active .top-bar {
+            top: 11px;
+            transform: rotate(135deg);
+        }
+        
+        .hamburger.active .bottom-bar {
+            top: 11px;
+            transform: rotate(-135deg);
+        }
+		
+		/*footer*/
+	html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: #e3b23c;
+}
+
+#bodyContainer {
+  position: relative;
+}
+
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  min-height: 80px;
+  padding-top: 0.5em;
+  background: 
+  /* color overlay */ 
+    /*linear-gradient(     
+	  rgb(237, 235, 215),
+	  rgb(227, 178, 60)  */
+	#000000;
+    );
+/*    border: 5px solid black*/
+    border-top: 2px solid white;
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+	
+}
+#footer-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  clear: both;
+  width: 100%;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.footertext {
+  color: #ffffff; 
+}
+div {
+  display: block;
+}
+.spacing {
+  line-height: 100%;
+  padding-top: 4px;
+  color: #ffffff;
+}
+
+.spacing {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+@media(max-width: 970px) {
+    .customColor {
+        color: #edebd7;
+    }
+    .smallLeft {
+        text-align: left;
+    }
+    .smallRight {
+        text-align: right;
+    }
+}
+
+.special {
+    margin-top: 1em;
+}
+
+p {
+    margin-bottom: .25em !Important;
+}
+
+.footerLink {
+    color: #edebd7;
+    text-decoration: none;
+}
+
+    </style>
+    <link href="../../../css/stylesheet.css" rel="stylesheet" type="text/css">
+    <div class="container">
+        <div class="tech-slideshow">
+            <div class="mover-1">
+            </div>
+        </div>
+    </div>
+
+    <!-- InstanceBeginEditable name="head" -->
+    <link href="../../../css/athletics/athletics.css" rel="stylesheet" type="text/css"> 
+    <!-- InstanceEndEditable -->
+
+    <link href="../../../css/bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div align="center" class="center">
+
+
+            <nav class="navbar navbar-inverse center">
+                <div class="">
+                    <div class="navbar-inner">
+                        <button type="button" class="navbar-toggle open collapsed" id="mainNavToggle" data-toggle="collapse" data-target="#bs-navbar" aria-expanded="false">
+			        		<div class="hamburger">
+          						<span class="sr-only">Toggle navigation</span>
+          						<span class="icon-bar top-bar"></span>
+          						<span class="icon-bar middlebar"></span>
+          						<span class="icon-bar bottom-bar"></span>
+        					</div>
+      					</button>
+
+
+
+                        <div class="collapse navbar-collapse" id="bs-navbar">
+                            <ul class="nav navbar-nav">
+                                <li><a href="../../../index.html">Home</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">School Info</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../../school_info/schedule.html">Schedule</a></li>
+                                        <li><a href="../../school_info/contact.html">Contact</a></li>
+                                        <li><a href="https://sites.google.com/a/tps501.org/ths-banzhaf/home">Counseling Center</a></li>
+                                        <li><a href="../../school_info/newsletters.html">Newsletters</a></li>
+                                        <li><a href="../../school_info/maps.html">Maps</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="../../staff/administrators/administrators.html">Staff</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Curricular</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../../clubs/clubs.html">Clubs</a></li>
+                                        <li><a href="../../music/music.html">Music</a></li>
+                                        <li><a href="../../performers/performers.html">Performers</a></li>
+                                        <li><a href="http://www.trojantheater.org">Theatre</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="../athletics_home.html" class="dropdown-toggle" data-toggle="dropdown">Athletics</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../athletics_home.html">Athletics Home</a></li>
+                                        <li><a href="../fall.html">Fall</a></li>
+                                        <li><a href="../winter.html">Winter</a></li>
+                                        <li><a href="../spring.html">Spring</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="../../events/events.html">Events</a></li>
+                                <li><a href="http://thsweb.org/alumni2/">Alumni</a></li>
+                                <!--<li><a href="http://thsweb.org"><img src="../assets/template/web_team_button.png" width="auto" height="30" alt="Web Team"></a></li>-->
+                                <!--     <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li> -->
+                            </ul>
+                            <!--<ul class="nav navbar-nav navbar-right">
+	<li><a href="#">Sign Up</a></li>
+	<li><a href="#">Log In</a></li>
+		</ul>-->
+                        </div>
+                    </div>
+            </nav>
+
+
+
+            <div class="container-fluid text-center">
+                <div class="row content">
+
+                    <!-- InstanceBeginEditable name="page_title" -->
+                    	<span class="page_title">Athletics</span>
+                    <!-- InstanceEndEditable -->
+                    <br>
+                    <br>
+                    
+                    <!--Nav bar thingy-->
+                    <div class="col-sm-3"> <strong><a href="../athletics_home.html">Back to sports home</a></strong> </div>
+                    <div class="col-sm-3"> <strong><a href="../fall.html">Fall</a></strong> </div>
+                    <div class="col-sm-3"><a href="../winter.html"><strong>Winter</strong></a></div>
+                    <div class="col-sm-3"> <a href="../spring.html"><strong>Spring</strong></a></div>
+
+					<br>
+                    
+                    <div class="col-sm-12">
+    			 		<span class="sportsballname"><strong>
+     						<!-- InstanceBeginEditable name="sportsballname" -->
+                            	<p>Track</p>
+                            <!-- InstanceEndEditable -->
+     					</strong></span>
+     				</div>
+<!--Editable thingy-->
+                                            <!-- InstanceBeginEditable name="schedule" -->
+                    <div class="col-sm-6" style="border:5px solid white; padding:.25em; border-radius: 1em;">
+                        <div style="height:400px;overflow:auto;">
+
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <span class="schedule_roster">Schedule</span>
+                                        <table class="table table-hover">
+                                             <thead>
+                                                <tr  class="smaller_header_sports">
+                            <th width="13%" scope="col" id="date">Date</th>
+                            <th width="35%" scope="col" id="opponent">Opponent</th>
+                            <th width="9%" scope="col" id="level">Level</th>
+                            <th width="11%" scope="col" id="location">Location</th>
+                            <th width="5%" scope="col" id="times">Time(s) </th>
+                                                </tr>
+                                            </thead>
+                                            
+                                            
+                                            <tbody>
+               <tr>
+                 <td>03/29/16</td>
+                 <td>Leavenworth Inv.</td>
+                 <td>V</td>
+                 <td>Mill Valley</td>
+                 <td>3:30 p.m.</td>
+               </tr>
+               <tr>
+                 <td>03/30/16</td>
+                 <td>Manhattan JV Quad.</td>
+                 <td>JV</td>
+                 <td>Manhattan</td>
+                 <td>3:30 p.m.</td>
+               </tr>
+               <tr>
+                 <td>03/31/16</td>
+                 <td>Jerry Breadslee Inv.</td>
+                 <td>V/JV</td>
+                 <td>Washburn Rural</td>
+                 <td>3:30 p.m.</td>
+               </tr>
+               <tr>
+                 <td>04/06/16</td>
+                 <td>Seaman JV Inv.</td>
+                 <td>JV</td>
+                 <td>Seaman</td>
+                 <td>3:30 p.m.</td>
+               </tr>
+               <tr>
+                 <td>04/08/16</td>
+                 <td>Topeka Relays</td>
+                 <td>V</td>
+                 <td>HSP (TH Host)</td>
+                 <td>3:30 p.m.</td>
+               </tr>
+               <tr>
+                 <td>04/13/16</td>
+                 <td>Shawnee Heights Inv.</td>
+                 <td>JV</td>
+                 <td>Shawnee Heights</td>
+                 <td>3:30 p.m.</td>
+               </tr>
+               <tr>
+                 <td>04/20/16</td>
+                 <td>Washburn Rural Jr. Blue Inv.</td>
+                 <td>V/JV</td>
+                 <td>Washburn Rural</td>
+                 <td>3:30 p.m.</td>
+               </tr>
+               <tr>
+                 <td>04/22/16 - 04/23/16</td>
+                 <td>Kansas Relays</td>
+                 <td>V</td>
+                 <td>Lawrence, KU</td>
+                 <td>TBA</td>
+               </tr>
+               <tr>
+                 <td>04/27/16</td>
+                 <td>Topeka Hgh Inv.</td>
+                 <td>JV</td>
+                 <td>HSP (TH Host)</td>
+                 <td>3:30 p.m.</td>
+               </tr>
+               <tr>
+                 <td>04/29/16</td>
+                 <td>Seaman Relays</td>
+                 <td>V</td>
+                 <td>Seaman</td>
+                 <td>3:00 p.m.</td>
+               </tr>
+               <tr>
+                 <td>04/29/16</td>
+                 <td>Shawnee Heights Inv.</td>
+                 <td>V</td>
+                 <td>Shawnee Heights</td>
+                 <td>3:30 p.m.</td>
+               </tr>
+               <tr>
+                 <td>05/04/16</td>
+                 <td>Washburn Rural Inv.</td>
+                 <td>V</td>
+                 <td>Washburn Rural</td>
+                 <td>3:30 p.m.</td>
+               </tr>
+               <tr>
+                 <td>05/06/16</td>
+                 <td>Joe Shrag Inv. (TW Host)</td>
+                 <td>V</td>
+                 <td>HSP</td>
+                 <td>3:30 p.m.</td>
+               </tr>
+               <tr>
+                 <td>05/12/16</td>
+                 <td>Centennial League Meet</td>
+                 <td>V</td>
+                 <td>Manhattan - Bishop Stadium</td>
+                 <td>3:30 p.m.</td>
+               </tr>
+               <tr>
+                 <td>05/20/16</td>
+                 <td>Regionals</td>
+                 <td>V</td>
+                 <td>TBA</td>
+                 <td>TBA</td>
+               </tr>
+               <tr>
+                 <td>05/27/16 - 05/28/16</td>
+                 <td>State Championships</td>
+                 <td>V</td>
+                 <td>Witchita State University</td>
+                 <td>TBA</td>
+               </tr>
+             </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </div>
+                    </div>
+                    
+                    <div class="row"> 
+<div class="col-sm-6"> 
+<script>    
+  "use strict"
+     var picNum = 2;
+     var currentPic = 1;
+     $(document).ready(function() {
+         $("#will_idea").mouseenter(function() {
+             if (picNum == currentPic) {
+                 $("#left_slide_image").animate({"margin-top":"+=283px"},500);
+                 $("#right_slide_image").animate({"margin-top":"-=285px"},500); 
+                 currentPic = 1;
+             } else {
+                 $("#left_slide_image").animate({"margin-top":"-=283px"},500);
+                 $("#right_slide_image").animate({"margin-top":"+=285px"},500);
+                 currentPic += 1;                  
+             } 
+         });
+     });    
+</script>
+
+        <div id="will_idea">
+	    <div id="left_slide_image">
+                <img src="../../../assets/athletics/spring/flip_code/track/sportsleft.png" alt="Trojans running" width="219px"height="560px">
+            </div>
+            <div id="right_slide_image">
+                <img src="../../../assets/athletics/spring/flip_code/track/sportsright.png" alt="Trojans running" width="219px" height="560px">
+            </div>
+        </div>
+</div>
+</div>
+					
+                    <div class="col-sm-12">
+                    	<div class="individual_sport_padding"></div>
+                    </div>
+                    
+					<!-- InstanceEndEditable -->
+                    <!-- end the editable region-->
+                    <!-- start editable region-->
+                                <!-- InstanceBeginEditable name="roster" -->
+                    <div class="col-sm-12" style="border:5px solid white; border-radius: 1em; padding: .25em;">
+                        <span class="schedule_roster">Roster</span>
+                        <div style="height:700px;overflow:auto;">
+                            <table class="table table-hover">
+                                <tr class="smaller_header_sports">
+                                    <td>First Name</td>
+                                    <td>Last Name</td>
+                                    <td>Grade</td>
+                                </tr>
+                                
+                                 <tr>
+<td colspan="3"><div align="center"><strong>Men</strong></div></td>       </tr>
+     <tr>
+       <td>Kaleb</td>
+       <td>Barber</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Jai'Mein</td>
+       <td>Berry</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Marquinn</td>
+       <td>Buckley</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Ben</td>
+       <td>Burton</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>Naijhee</td>
+       <td>Cannon-Hunt</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Jeron</td>
+       <td>Caraway</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Lesane</td>
+       <td>Carter</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Stephaun</td>
+       <td>Carter</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Calvin</td>
+       <td>Coleman</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Saylor</td>
+       <td>Caraway</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Bryce</td>
+       <td>Cooper</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Brandon</td>
+       <td>Douglas</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Michael</td>
+       <td>Englander</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Ethan</td>
+       <td>Figgs</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Charles</td>
+       <td>Flott</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Demetreian</td>
+       <td>Gamble</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>D'neillion</td>
+       <td>Hutchins</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Quinton</td>
+       <td>Johnson</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Ryan</td>
+       <td>Landes</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Charlie</td>
+       <td>Lathrop-Allen</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>William</td>
+       <td>Ludwig</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>John</td>
+       <td>Madden</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Gavin</td>
+       <td>Mitchell</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Justice</td>
+       <td>Mitchell</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Richard</td>
+       <td>Newman</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Obi</td>
+       <td>Nwakpuda</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Thomas</td>
+       <td>Padgett</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Tyrece</td>
+       <td>Parker</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Trevon</td>
+       <td>Payne</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Joseph</td>
+       <td>Ramirez</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Adonis</td>
+       <td>Rayton</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Jesse</td>
+       <td>Reed</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Dylan</td>
+       <td>Revely</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Kobe</td>
+       <td>Richardson</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Marquis</td>
+       <td>Rodgers</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Zach</td>
+       <td>Salazar</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Israel</td>
+       <td>Scharp</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Kevon</td>
+       <td>Seats</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>DeMontay</td>
+       <td>Tarver</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Ethan</td>
+       <td>Thornton</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Aron</td>
+       <td>Vega</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Xavier</td>
+       <td>Vega</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Ross</td>
+       <td>Vincent</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Ernest</td>
+       <td>Williams</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Jyuchsi</td>
+       <td>Williams</td>
+       <td>N/A</td>
+     </tr>
+     <tr>
+       <td>Walt</td>
+       <td>Anderson</td>
+       <td>Head Coach</td>
+     </tr>
+     <tr>
+       <td>Mark</td>
+       <td>Fancher</td>
+       <td>Assistant Coach</td>
+     </tr>
+     <tr>
+       <td>Pat</td>
+       <td>Denney</td>
+       <td>Assistant Coach</td>
+     </tr>
+     <tr>
+       <td>Mike</td>
+       <td>Henson</td>
+       <td>Assistant Coach</td>
+     </tr>
+     <tr>
+       <td>Andrew</td>
+       <td>Woodward</td>
+       <td>Assistant Coach</td>
+     </tr>
+      <tr>
+<td colspan="3"><div align="center"><strong>Women</strong></div></td>       </tr>
+     <tr>
+       <td>Kayleigh</td>
+       <td>Arndt</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Jennifer</td>
+       <td>Clark</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Maria</td>
+       <td>Cisneros</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Tamiah</td>
+       <td>Coffee</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Havilah</td>
+       <td>Hickling</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Riley</td>
+       <td>Huckabay</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Katelyn</td>
+       <td>May</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Elana</td>
+       <td>Munoz</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Monique</td>
+       <td>Lassiter</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Precious</td>
+       <td>Posey</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Ageonia</td>
+       <td>Wilkinson</td>
+       <td>12</td>
+     </tr>
+     <tr>
+       <td>Erika</td>
+       <td>Birch</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>Shay</td>
+       <td>Clark</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>LaKeisha</td>
+       <td>Harris</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>Destiny</td>
+       <td>Herrick</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>Deja</td>
+       <td>McFadden</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>Mya</td>
+       <td>McFadden</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>Olivia</td>
+       <td>Morris</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>Lexi</td>
+       <td>Siefer</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>Lauren</td>
+       <td>Stueves</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>Tatyana</td>
+       <td>Thomas</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>Asya</td>
+       <td>Williams</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>Tanijah</td>
+       <td>Yeargin</td>
+       <td>11</td>
+     </tr>
+     <tr>
+       <td>Lexy</td>
+       <td>Baird</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Kaystal</td>
+       <td>Coffee</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Desirae</td>
+       <td>Copeland</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Caitlyn</td>
+       <td>Coyle</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Jazmin</td>
+       <td>Esperza-Carlos</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Bella</td>
+       <td>Gallegos</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Danielle</td>
+       <td>Jackson</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Savanah</td>
+       <td>Jackson</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Tonyce</td>
+       <td>Jackson</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Katrina</td>
+       <td>Lassiter</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Wilnareon</td>
+       <td>Lee</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Lauren</td>
+       <td>Stous</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Julia</td>
+       <td>Webb</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Le'Asia</td>
+       <td>Wesley</td>
+       <td>10</td>
+     </tr>
+     <tr>
+       <td>Izell</td>
+       <td>Arzate</td>
+       <td>9</td>
+     </tr>
+     <tr>
+       <td>A'Bravion</td>
+       <td>Felder</td>
+       <td>9</td>
+     </tr>
+     <tr>
+       <td>Jacelyn</td>
+       <td>Mercer</td>
+       <td>9</td>
+     </tr>
+     <tr>
+       <td>Michaela</td>
+       <td>Mullins</td>
+       <td>9</td>
+     </tr>
+     <tr>
+       <td>Justina</td>
+       <td>Nicholson</td>
+       <td>9</td>
+     </tr>
+     <tr>
+       <td>Lave</td>
+       <td>Taylor</td>
+       <td>9</td>
+     </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- InstanceEndEditable -->
+                    
+                    <br>
+                </div>
+
+                
+
+            </div>
+            </div>
+            
+            <div id="footer-container">
+        <div class="container">
+            <div id="footer">
+                <div class="container-fluid">
+                    <div class="col-sm-12 col-md-3 center">
+                        <div class="spacing">
+                            <div class="smallLeft col-sm-6 col-md-12">
+                                <p><strong>Webmaster:</strong> Emma Hubka</p>
+                                <p><strong>Assistant Webmaster:</strong> Aidan McKay</p>
+                            </div>
+                            <div class="smallRight col-sm-6 col-md-12">
+                                <div id="google_translate_element"></div>
+                            </div>
+                            <script type="text/javascript">
+                                function googleTranslateElementInit() {
+                                    new google.translate.TranslateElement({
+                                        pageLanguage: 'en',
+                                        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                                    }, 'google_translate_element');
+                                }
+                            </script>
+                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="col-sm-3 special">
+                            <div class="col-sm-6">
+                                <center>
+                                    <a href="https://sites.google.com/a/tps501.org/chester-woodward-library/"><img src="../../../assets/template/library_button.png" width="auto" height="50" class="img-circle" style="position: relative; z-index: 100;" alt="Media Center"></a>
+                                    <br>
+                                    <!-- MEDIA CENTER -->
+                                    <h4 class="footertext"></h4>
+                                    <p class="footertext"></p>
+                                    <p><br>
+
+                                    </p>
+                                </center>
+                            </div>
+                            <div class="col-sm-6">
+                                <center>
+                                    <a href="https://www.facebook.com/topekahs"><img src="../../../assets/template/facebook_button.png" width="auto" height="50" class="img-circle" style="position: relative; z-index: 100;" alt="Facebook"></a>
+                                    <br>
+                                    <!-- FACEBOOK -->
+                                    <h4 class="footertext"></h4>
+                                    <p class="footertext"></p><br>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="spacing">
+                            <div class="col-sm-6">
+                                <center>
+                                    <!-- <img src="web_team.png" class="img-circle" alt="..."> 
+                  <br> -->
+
+                                    <p>Topeka High School</p>
+                                    <p>800 SW 10th St., Topeka, KS 66612</p>
+                                    <p>785.295.3150</p>
+                                    <p><a class="footerLink" href="../../school_info/contact.html">Contact Us</a></p>
+                                    <p class="footertext">Last Updated on <!-- #BeginDate format:Am1 -->November 20, 2017<!-- #EndDate -->
+                                    </p>
+
+                                    <!-- <p class="footertext">...<br> -->
+                                </center>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-sm-6">
+                                <center>
+                                    <a href="../../home/creators.html"><img src="../../../assets/template/web_team_button.png" width="auto" height="50" class="img-circle" style="position: relative; z-index: 100;" alt="Web Team"></a>
+                                    <br>
+                                    <!-- WEB TEAM -->
+                                    <h4 class="footertext"></h4>
+                                    <p class="footertext"></p><br>
+                                </center>
+                            </div>
+                            <div class="col-sm-6">
+                                <center>
+                                    <a href="https://powerschool.topekapublicschools.net/public/"><img src="../../../assets/template/powerschool_button.png" width="auto" height="50" class="img-circle" style="position: relative; z-index: 100;" alt="Powerschool"></a>
+                                    <br>
+                                    <!-- POWERSCHOOL -->
+                                    <h4 class="footertext"></h4>
+                                    <p class="footertext"><br>
+                                    </p>
+                                </center>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="spacing col-md-3">
+                        <p class="customColor">
+                            <strong>Website Editors:</strong> Emma Hubka, Aidan McKay, Michael Welch, Chelsea Cole, Ben Thoeni, Kevin Bethea, Perla Medina, Riley Pfannenstiel, and Duncan Gabel.
+                        </p>
+                        <p><a class="footerLink" href="../../home/creators.html">Website Editors</a></p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="../../../assets/js/template.js"></script>
+
+</body>
+
+<!-- InstanceEnd --></html>

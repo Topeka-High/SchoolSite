@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en" style="height: auto; !important"><!-- InstanceBegin template="/Templates/em_real_individual_sport_temp.dwt" codeOutsideHTMLIsLocked="false" --> 
+
+<head>
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>Men's Swimming</title>
+    <!-- InstanceEndEditable -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+   
+
+    <link href="../../../css/stylesheet.css" rel="stylesheet" type="text/css">
+    <link rel="icon" href="../../../assets/template/favicon.png" type="image/png" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- slideshow -->
+
+    <style>
+	html {
+		height: auto !important;	
+	}
+            /* Remove the navbar's default margin-bottom and rounded borders */
+        
+        .navbar {
+            margin-bottom: 0;
+            border-radius: 0;
+            align: center;
+        }
+        /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+        /* Set gray background color and 100% height */
+        
+        .sidenav {
+            /* padding-top: 20px;*/
+            background-image: url("../../../assets/template/tower_sidebar.png");
+            height: 100%;
+            background-color: #cccccc;
+        }
+        /* Set black background color, white text and some padding */
+        
+        footer {
+            background-color: #636363;
+            color: white;
+            padding: 15px;
+        }
+        /* On small screens, set height to 'auto' for sidenav and grid */
+        
+        @media screen and (max-width: 767px) {
+            .sidenav {
+                height: auto;
+                padding: 15px;
+            }
+            .row.content {
+                height: auto;
+            }
+            .carousel-inner>.item>img,
+            .carousel-inner>.item>a>img {
+                width: 100%;
+                margin: auto;
+            }
+		}
+		.dropdown-menu a {
+			text-align: center;	
+		}
+
+    </style>
+
+    <style>
+        /* actual dropdown animation */
+        
+        @media (min-width: 768px) {
+            .dropdown .dropdown-menu {
+                -webkit-transition: all 0.3s;
+                -moz-transition: all 0.3s;
+                -ms-transition: all 0.3s;
+                -o-transition: all 0.3s;
+                transition: all 0.3s;
+                max-height: 0;
+                display: block;
+                overflow: hidden;
+                opacity: 0;
+            }
+            .dropdown.open .dropdown-menu {
+                max-height: 300px;
+                opacity: 1;
+            }
+            ul.nav li.dropdown:hover>ul.dropdown-menu {
+                max-height: 300px;
+                opacity: 1;
+            }
+        }
+        
+        //hamburger
+        .navbar-inner {
+            float: left !important;
+        }
+        
+        .top-bar, .middlebar, .bottom-bar {
+            background: white;
+            height: 5px !important;
+            width: 30px !important;
+        }
+        
+        .navbar-toggle .icon-bar+.icon-bar {
+            margin-top: 0px !important;
+        }
+        
+        .hamburger {
+            width: 30px;
+            height: 25px;
+            padding: 5px 5px 3px 5px;
+            position: relative;
+            margin: auto;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transition: all .5s ease-in-out;
+            -moz-transition: all .5s ease-in-out;
+            -o-transition: all .5s ease-in-out;
+            transition: all .5s ease-in-out;
+            cursor: pointer;
+        }
+        
+        .hamburger span {
+            position: absolute;
+            -webkit-transform: rotate(0deg);
+            -moz-transform: rotate(0deg);
+            -o-transform: rotate(0deg);
+            transform: rotate(0deg);
+            -webkit-transition: all .25s ease-in-out;
+            -moz-transition: all .25s ease-in-out;
+            -o-transition: all .25s ease-in-out;
+            transition: all .25s ease-in-out;
+            cursor: pointer;
+            left: 0;
+            right: 0;
+        }
+        
+        .top-bar {
+            top: 0px;
+        }
+        
+        .middlebar {
+            top: 11px;
+            left: 0px;
+        }
+        
+        .bottom-bar {
+            top: 22px;
+        }
+        
+        .hamburger.active .top-bar {
+            top: 11px;
+            transform: rotate(135deg);
+        }
+        
+        .hamburger.active .bottom-bar {
+            top: 11px;
+            transform: rotate(-135deg);
+        }
+		
+		/*footer*/
+	html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  background-color: #e3b23c;
+}
+
+#bodyContainer {
+  position: relative;
+}
+
+#footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  min-height: 80px;
+  padding-top: 0.5em;
+  background: 
+  /* color overlay */ 
+    /*linear-gradient(     
+	  rgb(237, 235, 215),
+	  rgb(227, 178, 60)  */
+	#000000;
+    );
+/*    border: 5px solid black*/
+    border-top: 2px solid white;
+	border-right: 2px solid white;
+	border-left: 2px solid white;
+	
+}
+#footer-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  clear: both;
+  width: 100%;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+.footertext {
+  color: #ffffff; 
+}
+div {
+  display: block;
+}
+.spacing {
+  line-height: 100%;
+  padding-top: 4px;
+  color: #ffffff;
+}
+
+.spacing {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+@media(max-width: 970px) {
+    .customColor {
+        color: #edebd7;
+    }
+    .smallLeft {
+        text-align: left;
+    }
+    .smallRight {
+        text-align: right;
+    }
+}
+
+.special {
+    margin-top: 1em;
+}
+
+p {
+    margin-bottom: .25em !Important;
+}
+
+.footerLink {
+    color: #edebd7;
+    text-decoration: none;
+}
+
+    </style>
+    <link href="../../../css/stylesheet.css" rel="stylesheet" type="text/css">
+    <div class="container">
+        <div class="tech-slideshow">
+            <div class="mover-1">
+            </div>
+        </div>
+    </div>
+
+    <!-- InstanceBeginEditable name="head" -->
+    <link href="../../../css/athletics/athletics.css" rel="stylesheet" type="text/css"> 
+    <!-- InstanceEndEditable -->
+
+    <link href="../../../css/bootstrap/bootstrap.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div align="center" class="center">
+
+
+            <nav class="navbar navbar-inverse center">
+                <div class="">
+                    <div class="navbar-inner">
+                        <button type="button" class="navbar-toggle open collapsed" id="mainNavToggle" data-toggle="collapse" data-target="#bs-navbar" aria-expanded="false">
+			        		<div class="hamburger">
+          						<span class="sr-only">Toggle navigation</span>
+          						<span class="icon-bar top-bar"></span>
+          						<span class="icon-bar middlebar"></span>
+          						<span class="icon-bar bottom-bar"></span>
+        					</div>
+      					</button>
+
+
+
+                        <div class="collapse navbar-collapse" id="bs-navbar">
+                            <ul class="nav navbar-nav">
+                                <li><a href="../../../index.html">Home</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">School Info</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../../school_info/schedule.html">Schedule</a></li>
+                                        <li><a href="../../school_info/contact.html">Contact</a></li>
+                                        <li><a href="https://sites.google.com/a/tps501.org/ths-banzhaf/home">Counseling Center</a></li>
+                                        <li><a href="../../school_info/newsletters.html">Newsletters</a></li>
+                                        <li><a href="../../school_info/maps.html">Maps</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="../../staff/administrators/administrators.html">Staff</a></li>
+                                <li class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">Curricular</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../../clubs/clubs.html">Clubs</a></li>
+                                        <li><a href="../../music/music.html">Music</a></li>
+                                        <li><a href="../../performers/performers.html">Performers</a></li>
+                                        <li><a href="http://www.trojantheater.org">Theatre</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <a href="../athletics_home.html" class="dropdown-toggle" data-toggle="dropdown">Athletics</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="../athletics_home.html">Athletics Home</a></li>
+                                        <li><a href="../fall.html">Fall</a></li>
+                                        <li><a href="../winter.html">Winter</a></li>
+                                        <li><a href="../spring.html">Spring</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="../../events/events.html">Events</a></li>
+                                <li><a href="http://thsweb.org/alumni2/">Alumni</a></li>
+                                <!--<li><a href="http://thsweb.org"><img src="../assets/template/web_team_button.png" width="auto" height="30" alt="Web Team"></a></li>-->
+                                <!--     <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li> -->
+                            </ul>
+                            <!--<ul class="nav navbar-nav navbar-right">
+	<li><a href="#">Sign Up</a></li>
+	<li><a href="#">Log In</a></li>
+		</ul>-->
+                        </div>
+                    </div>
+            </nav>
+
+
+
+            <div class="container-fluid text-center">
+                <div class="row content">
+
+                    <!-- InstanceBeginEditable name="page_title" -->
+                    	<span class="page_title">Athletics</span>
+                    <!-- InstanceEndEditable -->
+                    <br>
+                    <br>
+                    
+                    <!--Nav bar thingy-->
+                    <div class="col-sm-3"> <strong><a href="../athletics_home.html">Back to sports home</a></strong> </div>
+                    <div class="col-sm-3"> <strong><a href="../fall.html">Fall</a></strong> </div>
+                    <div class="col-sm-3"><a href="../winter.html"><strong>Winter</strong></a></div>
+                    <div class="col-sm-3"> <a href="../spring.html"><strong>Spring</strong></a></div>
+
+					<br>
+                    
+                    <div class="col-sm-12">
+    			 		<span class="sportsballname"><strong>
+     						<!-- InstanceBeginEditable name="sportsballname" -->
+                            	<p>Men's Swimming</p>
+                            <!-- InstanceEndEditable -->
+     					</strong></span>
+     				</div>
+<!--Editable thingy-->
+                                            <!-- InstanceBeginEditable name="schedule" -->
+                    <div class="col-sm-6" style="border:5px solid white; padding:.25em; border-radius: 1em;">
+                        <div style="height:400px;overflow:auto;">
+
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <h5><strong>Schedule</strong></h5>
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th width="13%">Date</th>
+                                                    <th width="35%">Opponent</th>
+                                                    <th width="9%">Level</th>
+                                                    <th width="11%">Location</th>
+                                                    <th width="5%">Time(s) </th>
+                                                </tr>
+                                            </thead>
+                                            
+                                            
+                                            <tbody>
+               <tr>
+        	<td>11/29/17</td>
+            <td>Topeka West Diving Inv.</td>
+            <td>V</td>
+            <td>Topeka - CFN</td>
+            <td>1:30 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>11/29/17</td>
+            <td>Topeka West Swimming Inv.</td>
+            <td>V</td>
+            <td>Topeka - CFN</td>
+            <td>4:00 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>12/05/17</td>
+            <td>Emporia Diving Inv.</td>
+            <td>V</td>
+            <td>Emporia High School</td>
+            <td>1:00 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>12/05/17</td>
+            <td>Emporia Swimming Inv.</td>
+            <td>V</td>
+            <td>Emporia High School</td>
+            <td>4:00 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>01/09/18</td>
+            <td>Topeka West Diving Inv.</td>
+            <td>V</td>
+            <td>Topeka - CFN</td>
+            <td>1:30 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>01/09/18</td>
+            <td>Topeka West Swimming Inv.</td>
+            <td>V</td>
+            <td>Topeka - CFN</td>
+            <td>4:00 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>01/11/18</td>
+            <td>Emporia Swimming Inv.</td>
+            <td>V</td>
+            <td>Emporia High School</td>
+            <td>4:00 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>01/18/18</td>
+            <td>Lawrence Swimming Inv.</td>
+            <td>V</td>
+            <td>Lawrence</td>
+            <td>3:30 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>01/23/18</td>
+            <td>Topkea High Diving Inv.</td>
+            <td>V</td>
+            <td>Topeka - CFN</td>
+            <td>1:30 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>01/23/18</td>
+            <td>Topeka High Swimming Inv.</td>
+            <td>V</td>
+            <td>Topeka - CFN</td>
+            <td>4:00 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>01/25/18</td>
+            <td>City Dive Meet</td>
+            <td>V</td>
+            <td>Topeka - CFN</td>
+            <td>1:30 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>01/25/18</td>
+        	<td>City Swim Meet</td>
+            <td>V</td>
+            <td>Topeka - CFN</td>
+            <td>4:00 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>02/02/18</td>
+            <td>Manhattan Diving Inv.</td>
+            <td>V</td>
+            <td>Manhattan - KSU Natatorium</td>
+            <td>6:30 p.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>02/03/18</td>
+            <td>Manhattan Swimming Inv.</td>
+            <td>V</td>
+            <td>Manhattan - KSU Natatorium</td>
+            <td>10:30 a.m.</td>
+           
+      
+    </tr>
+      <tr>
+        	<td>02/08/18</td>
+            <td>Centennial League Diving</td>
+            <td>V</td>
+            <td>Topeka - CFN</td>
+            <td>3:30 p.m.</td>
+           
+      
+    </tr>
+    <tr>
+        	<td>02/09/18</td>
+            <td>Centennial League Swimming</td>
+            <td>V</td>
+            <td>Topeka - CFN</td>
+            <td>3:30 p.m.</td>
+           
+      
+    </tr>
+    <tr>
+        	<td>02/15/18-02/16/18</td>
+            <td>State Diving</td>
+            <td>V</td>
+            <td>Topeka - CFN</td>
+            <td>TBA</td>
+           
+      
+    </tr>
+             </tbody>
+                                        </table>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </div>
+                    </div>
+                    
+                    <div class="row"> 
+<div class="col-sm-6"> 
+<script>    
+  "use strict"
+     var picNum = 2;
+     var currentPic = 1;
+     $(document).ready(function() {
+         $("#will_idea").mouseenter(function() {
+             if (picNum == currentPic) {
+                 $("#left_slide_image").animate({"margin-top":"+=283px"},500);
+                 $("#right_slide_image").animate({"margin-top":"-=285px"},500); 
+                 currentPic = 1;
+             } else {
+                 $("#left_slide_image").animate({"margin-top":"-=283px"},500);
+                 $("#right_slide_image").animate({"margin-top":"+=285px"},500);
+                 currentPic += 1;                  
+             } 
+         });
+     });    
+</script>
+
+        <div id="will_idea">
+	    <div id="left_slide_image">
+                <img src="../../../assets/athletics/winter/flip_code/mens_swimming/sportsleft.png" alt="Swim Team" width="219px"height="560px">
+            </div>
+            <div id="right_slide_image">
+                <img src="../../../assets/athletics/winter/flip_code/mens_swimming/sportsright.png" alt="Swim Team" width="219px" height="560px">
+            </div>
+        </div>
+</div>
+</div>
+					
+                    <div class="col-sm-12">
+                    	<div class="individual_sport_padding"></div>
+                    </div>
+                    
+					<!-- InstanceEndEditable -->
+                    <!-- end the editable region-->
+                    <!-- start editable region-->
+                                <!-- InstanceBeginEditable name="roster" -->
+                    <div class="col-sm-12" style="border:5px solid white; border-radius: 1em; padding: .25em;">
+                        <h3><strong>Roster</strong></h3>
+                        <div style="height:700px;overflow:auto;">
+                            <table class="table table-hover">
+                                <tr>
+                                    <strong>  <td>First Name</td> </strong>
+                                    <strong> <td>Last Name</td> </strong>
+                                    <strong> <td>Grade</td> </strong>
+                                </tr>
+                                
+                                <tr>
+    <td>Jackson</td>
+    <td>Palmer</td>		
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>Dalton </td>
+    <td>Tripe</td>		
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>Joe </td>
+    <td>McGivern</td>		
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>LaSha </td>
+    <td>Williams</td>		
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>Ben </td>
+    <td>Burton</td>		
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>Hunter </td>
+    <td>Holloman</td>		
+    <td>12</td>
+  </tr> 
+  <tr>
+    <td>Nathan </td>
+    <td>Del Real</td>		
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>Caleb </td>
+    <td>Skrzypek</td>		
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>Paul </td>
+    <td>Cabili</td>		
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>Joseph </td>
+    <td>Ramirez</td>		
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>Isaiah </td>
+    <td>Phelphs</td>		
+    <td>11</td>
+  </tr>
+  <tr>
+    <td>Gus </td>
+    <td>Rios</td>		
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Dylan </td>
+    <td>Tripe</td>		
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Carlos </td>
+    <td>Castillo</td>		
+    <td>10</td>
+  </tr>
+  <tr>
+    <td>Michael </td>
+    <td>Jackson</td>		
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Brennan </td>
+    <td>Johnson</td>		
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Bradley </td>
+    <td>Palmer</td>		
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Alexander </td>
+    <td>Stewart</td>		
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Ethan </td>
+    <td>Payne</td>		
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Eli </td>
+    <td>Holloman</td>		
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Riley</td>
+    <td>Mercer</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center"><strong>Managers</strong></td>
+    </tr>
+  <td>Sophie </td>
+  <td>Hodge</td>
+  <td>9</td>
+  </tr>
+  <tr>
+    <td>Chieko</td>
+    <td>Zimmerman</td>
+    <td>9</td>
+  </tr>
+  <tr>
+   <td>Zoe </td>
+   <td>DuneKack</td>
+   <td>9</td>
+  </tr>
+  <tr>
+    <td>Annie </td>
+    <td>Simon</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td>Danielle </td>
+    <td>Swarts</td>
+    <td>9</td>
+  </tr>
+  <tr>
+    <td colspan="3" align="center"> <strong>Coaches</strong></td>
+    </tr>
+  <td>Head Coach</td>
+    <td>Kenneth </td>		
+    <td>Bennett</td>
+  </tr>
+  <tr>
+    <td>Assistant Coach</td>
+    <td>Emily</td>		
+    <td> Hodge</td>
+  </tr>
+  <tr>
+    <td>Jackson</td>
+    <td>Amy </td>		
+    <td>Watson</td>
+  </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <!-- InstanceEndEditable -->
+                    
+                    <br>
+                </div>
+
+                
+
+            </div>
+            </div>
+            
+            <div id="footer-container">
+        <div class="container">
+            <div id="footer">
+                <div class="container-fluid">
+                    <div class="col-sm-12 col-md-3 center">
+                        <div class="spacing">
+                            <div class="smallLeft col-sm-6 col-md-12">
+                                <p><strong>Webmaster:</strong> Emma Hubka</p>
+                                <p><strong>Assistant Webmaster:</strong> Aidan McKay</p>
+                            </div>
+                            <div class="smallRight col-sm-6 col-md-12">
+                                <div id="google_translate_element"></div>
+                            </div>
+                            <script type="text/javascript">
+                                function googleTranslateElementInit() {
+                                    new google.translate.TranslateElement({
+                                        pageLanguage: 'en',
+                                        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+                                    }, 'google_translate_element');
+                                }
+                            </script>
+                            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6">
+                        <div class="col-sm-3 special">
+                            <div class="col-sm-6">
+                                <center>
+                                    <a href="https://sites.google.com/a/tps501.org/chester-woodward-library/"><img src="../../../assets/template/library_button.png" width="auto" height="50" class="img-circle" style="position: relative; z-index: 100;" alt="Media Center"></a>
+                                    <br>
+                                    <!-- MEDIA CENTER -->
+                                    <h4 class="footertext"></h4>
+                                    <p class="footertext"></p>
+                                    <p><br>
+
+                                    </p>
+                                </center>
+                            </div>
+                            <div class="col-sm-6">
+                                <center>
+                                    <a href="https://www.facebook.com/topekahs"><img src="../../../assets/template/facebook_button.png" width="auto" height="50" class="img-circle" style="position: relative; z-index: 100;" alt="Facebook"></a>
+                                    <br>
+                                    <!-- FACEBOOK -->
+                                    <h4 class="footertext"></h4>
+                                    <p class="footertext"></p><br>
+                                </center>
+                            </div>
+                        </div>
+                        <div class="spacing">
+                            <div class="col-sm-6">
+                                <center>
+                                    <!-- <img src="web_team.png" class="img-circle" alt="..."> 
+                  <br> -->
+
+                                    <p>Topeka High School</p>
+                                    <p>800 SW 10th St., Topeka, KS 66612</p>
+                                    <p>785.295.3150</p>
+                                    <p><a class="footerLink" href="../../school_info/contact.html">Contact Us</a></p>
+                                    <p class="footertext">Last Updated on <!-- #BeginDate format:Am1 -->November 20, 2017<!-- #EndDate -->
+                                    </p>
+
+                                    <!-- <p class="footertext">...<br> -->
+                                </center>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="col-sm-6">
+                                <center>
+                                    <a href="../../home/creators.html"><img src="../../../assets/template/web_team_button.png" width="auto" height="50" class="img-circle" style="position: relative; z-index: 100;" alt="Web Team"></a>
+                                    <br>
+                                    <!-- WEB TEAM -->
+                                    <h4 class="footertext"></h4>
+                                    <p class="footertext"></p><br>
+                                </center>
+                            </div>
+                            <div class="col-sm-6">
+                                <center>
+                                    <a href="https://powerschool.topekapublicschools.net/public/"><img src="../../../assets/template/powerschool_button.png" width="auto" height="50" class="img-circle" style="position: relative; z-index: 100;" alt="Powerschool"></a>
+                                    <br>
+                                    <!-- POWERSCHOOL -->
+                                    <h4 class="footertext"></h4>
+                                    <p class="footertext"><br>
+                                    </p>
+                                </center>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="spacing col-md-3">
+                        <p class="customColor">
+                            <strong>Website Editors:</strong> Emma Hubka, Aidan McKay, Michael Welch, Chelsea Cole, Ben Thoeni, Kevin Bethea, Perla Medina, Riley Pfannenstiel, and Duncan Gabel.
+                        </p>
+                        <p><a class="footerLink" href="../../home/creators.html">Website Editors</a></p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script src="../../../assets/js/template.js"></script>
+
+</body>
+
+<!-- InstanceEnd --></html>
